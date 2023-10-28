@@ -1,3 +1,16 @@
 body{
-    background-color: blanchedalmond;
+    background-color: black;
+    color:white
+}
+body*{
+    font-family:arial;
+}
+a,a:hover,a:visited{
+    color:white;
+    text-decoration:none;
+    
+}
+h1,h2,h3,h4,h5{
+    font-weight:normal;
+    margin:0;
 }
