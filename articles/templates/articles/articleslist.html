@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>django blog</title>
+        <link rel="stylesheet" href="{% static 'style.css'%}">
+    </head>
+    <body>
+        <h1>
+           Article
+        </h1>
+        <p>this page madeing up with django!</p>
+        {%for x in articles%}
+        <h2><a href="#">{{x.title}}</a></h2>
+        <p>{{x.date}}</p>
+        <p>{{x.snippet}}</p>
+        {%endfor%}
+    </body>
+</html> 
