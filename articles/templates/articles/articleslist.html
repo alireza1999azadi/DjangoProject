@@ -8,16 +8,17 @@
         <link rel="stylesheet" href="{% static 'style.css'%}">
     </head>
     <body>
-       <div class="container">
+        <div class="continer">
         <h1>
-           Article
+            Article
         </h1>
         <p>this page madeing up with django!</p>
+        <p>iran prudoct</p>
         {%for x in articles%}
         <h2><a href="#">{{x.title}}</a></h2>
         <p>{{x.date}}</p>
         <p>{{x.snippet}}</p>
         {%endfor%}
-       </div>
+        </div>
     </body>
 </html> 
